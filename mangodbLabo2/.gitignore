@@ -1,0 +1,52 @@
+
+# Dépendances
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build & Transpilation
+dist/
+build/
+tmp/
+temp/
+*.log
+*.tsbuildinfo
+
+# Environnements
+.env
+.env.*
+!.env.example
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tests / Coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+.dockerignore
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# TypeScript incremental build
+tsconfig.tsbuildinfo
